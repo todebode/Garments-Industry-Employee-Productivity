@@ -81,4 +81,4 @@ d. The model to implement was determined. A justification was provided for the r
 
   **Video Presentation:**
 
-The following link contains a presentation I gave about this project. I assumed I was talking to a technical audience in the presentation, so the presentaion has exploratory visuals and codes: https://drive.google.com/file/d/1YFUMF7p563BMlnzy8ZiE3ma4qXXK4E4i/view?usp=sharing
+The following link contains a presentation I gave about this project. I assumed I was talking to a technical audience in the presentation, so the presentation has exploratory visuals and codes: https://drive.google.com/file/d/1YFUMF7p563BMlnzy8ZiE3ma4qXXK4E4i/view?usp=sharing
