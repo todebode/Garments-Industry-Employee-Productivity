@@ -50,6 +50,7 @@ In this section, barcharts, histograms, boxplots and a heat map were used for ex
 The following are two examples of visualizations that were made. The first is a comparison of the actual productivity of employees for each department per week day. The second is a correlation heatmap for the dataset.
 
 ![image](https://user-images.githubusercontent.com/97941938/162676304-ebba09c0-1fd6-4448-b948-f9451a651997.png)
+
 Table 1: Actual productivity of employees for each department per weekday
 
 ![image](https://user-images.githubusercontent.com/97941938/162676415-8c78dc69-8772-46f8-91e8-348f0bbf49ee.png)
