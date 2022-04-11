@@ -4,15 +4,15 @@
 
 This project involves using machine learning to predict actual productivity of garment workers based on certain features in the garment manufacturing process. The project is important because decision makers in the garment industry could use the analysis and prediction of employee productivity to improve the overall production of garments and ultimately improve company revenue.
 
-**Data Source: **
+**Data Source:**
 
 The data used in this project was retrieved from the UCI Machine Learning Repository website: https://archive.ics.uci.edu/ml/datasets/Productivity+Prediction+of+Garment+Employees#
 
 **The Code:**
 1.	Loading and verifying data - In this part, the needed packages were imported, and the garment industry employee productivity data was loaded and verified
-2.	
-3.	Data Cleaning - In this part, several steps were carried out to clean the data. 
-4.	
+
+2. Data Cleaning - In this part, several steps were carried out to clean the data. 
+
 •	Missing values and inconsistent categories of data were addressed. For "wip" column, the median weight was determined, and that median was inserted in the cells with missing value. ‘wip’ is short for “work in progress.” It represents the number of unfinished items for products.
 
 •	Feature engineering was applied to the ‘date’ column and new columns were created for the numeric days and numeric months from the dates.
@@ -48,10 +48,12 @@ In this section, barcharts, histograms, boxplots and a heat map were used for ex
 •	Histogram of 'actual_productivity' column. The 'actual_productivity' column represents the actual % of productivity that was delivered by the workers.
 
 The following are two examples of visualizations that were made. The first is a comparison of the actual productivity of employees for each department per week day. The second is a correlation heatmap for the dataset.
+
+![image](https://user-images.githubusercontent.com/97941938/162676304-ebba09c0-1fd6-4448-b948-f9451a651997.png)
  
 Table 1: Actual productivity of employees for each department per weekday
 
- 
+
 Table 2: Correlation heatmap of the garment employee productivity dataset.
 
 **Models:**
@@ -67,6 +69,7 @@ c. A Random Forest model was built to predict employee teams that met their prod
 d. The model to implement was determined. A justification was provided for the recommendation.
 
 **Findings:**
+
 •	All the models had some level of overfitting. The accuracy scores for all models were not that great but were not terrible either.
 
 •	I have chosen the optimized KNN model because it's the model with the least overfitting. It's training accuracy score was 0.8207 and its testing accuracy score was 0.7517. It's testing score is also not significantly different from the testing scores of the optimized logistic regression model and optimized Random Forest model.
