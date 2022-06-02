@@ -1,5 +1,7 @@
 # Garments Industry Employee Productivity
 
+### Tijesunimi Odebode
+
 **Description:**
 
 This project involves using machine learning to predict garment workers that met their productivity goals based on certain features in the garment manufacturing process. The project is important because decision makers in the garment industry could use the analysis and prediction of employee productivity to improve the overall production of garments and ultimately improve company revenue.
