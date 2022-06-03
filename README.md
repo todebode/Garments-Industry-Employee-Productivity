@@ -16,9 +16,9 @@ The data used in this project was retrieved from the UCI Machine Learning Reposi
 
 2. Data Cleaning - In this part, several steps were carried out to clean the data. 
 
-•	Missing values and inconsistent categories of data were addressed. For "wip" column, the median weight was determined, and that median was inserted in the cells with missing value. ‘wip’ is short for “work in progress.” It represents the number of unfinished items for products.
+  •	Missing values and inconsistent categories of data were addressed. For "wip" column, the median weight was determined, and that median was inserted in the cells with missing value. ‘wip’ is short for “work in progress.” It represents the number of unfinished items for products.
 
-•	Feature engineering was applied to the ‘date’ column and new columns were created for the numeric days and numeric months from the dates.
+  •	Feature engineering was applied to the ‘date’ column and new columns were created for the numeric days and numeric months from the dates.
 
 •	Duplicates in the data were checked for and there were no duplicates. 
 
