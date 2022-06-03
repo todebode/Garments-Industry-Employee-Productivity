@@ -11,6 +11,7 @@ This project involves using machine learning to predict garment workers that met
 The data used in this project was retrieved from the UCI Machine Learning Repository website: https://archive.ics.uci.edu/ml/datasets/Productivity+Prediction+of+Garment+Employees#
 
 **The Code:**
+
 1.	Loading and verifying data - In this part, the needed packages were imported, and the garment industry employee productivity data was loaded and verified
 
 2. Data Cleaning - In this part, several steps were carried out to clean the data. 
