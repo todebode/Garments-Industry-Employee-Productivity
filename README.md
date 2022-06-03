@@ -12,9 +12,9 @@ The data used in this project was retrieved from the UCI Machine Learning Reposi
 
 **The Code:**
 
-1. Loading and verifying data - In this part, the needed packages were imported, and the garment industry employee productivity data was loaded and verified
+a. Loading and verifying data - In this part, the needed packages were imported, and the garment industry employee productivity data was loaded and verified
 
-2. Data Cleaning - In this part, several steps were carried out to clean the data. 
+b. Data Cleaning - In this part, several steps were carried out to clean the data. 
 
 •	Missing values and inconsistent categories of data were addressed. For "wip" column, the median weight was determined, and that median was inserted in the cells with missing value. ‘wip’ is short for “work in progress.” It represents the number of unfinished items for products.
 
