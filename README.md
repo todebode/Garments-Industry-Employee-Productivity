@@ -12,9 +12,9 @@ The data used in this project was retrieved from the UCI Machine Learning Reposi
 
 ### The Code:
 
-**1. **Loading and verifying data** - In this part, the needed packages were imported, and the garment industry employee productivity data was loaded and verified
+1. Loading and verifying data - In this part, the needed packages were imported, and the garment industry employee productivity data was loaded and verified
 
-**2. **Data Cleaning** - In this part, several steps were carried out to clean the data. 
+2. Data Cleaning - In this part, several steps were carried out to clean the data. 
 
 - Missing values and inconsistent categories of data were addressed. For "wip" column, the median weight was determined, and that median was inserted in the cells with missing value. ‘wip’ is short for “work in progress.” It represents the number of unfinished items for products.
 
@@ -40,15 +40,15 @@ The data used in this project was retrieved from the UCI Machine Learning Reposi
 
 In this section, barcharts, histograms, boxplots and a heat map were used for explanatory and exploratory visualizations. The following visualizations were shown:
 
-- Barchart of 'department' column. The count of each department was plotted
+1. Barchart of 'department' column. The count of each department was plotted
 
-- Compare actual productivity for each department
+2. Compare actual productivity for each department
 
-- Compare actual productivity for each department for each day of the week.
+3. Compare actual productivity for each department for each day of the week.
 
-- Histogram of 'targeted_productivity' column. The 'targeted_productivity' column represents targeted productivity set by the authority for each team for each day.
+4. Histogram of 'targeted_productivity' column. The 'targeted_productivity' column represents targeted productivity set by the authority for each team for each day.
 
-- Histogram of 'actual_productivity' column. The 'actual_productivity' column represents the actual % of productivity that was delivered by the workers.
+5. Histogram of 'actual_productivity' column. The 'actual_productivity' column represents the actual % of productivity that was delivered by the workers.
 
 The following are two examples of visualizations that were made. The first is a comparison of the actual productivity of employees for each department per week day. The second is a correlation heatmap for the dataset.
 
@@ -82,6 +82,6 @@ In this section, the following tasks were carried out:
 
 - As a result of the above reasons, I would choose the KNN model.
 
-  ### Video Presentation:
+### Video Presentation:
 
 The following link contains a presentation I gave about this project. I assumed I was talking to a technical audience in the presentation, so the presentation has exploratory visuals and codes: https://drive.google.com/file/d/1YFUMF7p563BMlnzy8ZiE3ma4qXXK4E4i/view?usp=sharing
