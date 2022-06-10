@@ -76,11 +76,11 @@ In this section, the following tasks were carried out:
 
     * All the models had some level of overfitting. The accuracy scores for all models were not that great but were not terrible either.
 
-- I have chosen the optimized KNN model because it's the model with the least overfitting. It's training accuracy score was 0.8207 and its testing accuracy score was 0.7517. It's testing score is also not significantly different from the testing scores of the optimized logistic regression model and optimized Random Forest model.
+    * I have chosen the optimized KNN model because it's the model with the least overfitting. It's training accuracy score was 0.8207 and its testing accuracy score was 0.7517. It's testing score is also not significantly different from the testing scores of the optimized logistic regression model and optimized Random Forest model.
 
-- Also, based on the confusion matrices, the KNN model was better at identifying employee teams that met or exceeded their target productivity, which is important for this problem. The KNN model was able to successfully classify 90% of the samples in our test set that were class 1 ('Yes' representing employee teams that met or exceeded their target productivity).
+    * Also, based on the confusion matrices, the KNN model was better at identifying employee teams that met or exceeded their target productivity, which is important for this problem. The KNN model was able to successfully classify 90% of the samples in our test set that were class 1 ('Yes' representing employee teams that met or exceeded their target productivity).
 
-- As a result of the above reasons, I chose the KNN model.
+    * As a result of the above reasons, I chose the KNN model.
 
 ### Video Presentation:
 
