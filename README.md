@@ -18,23 +18,23 @@ The data used in this project was retrieved from the UCI Machine Learning Reposi
 
    * Missing values and inconsistent categories of data were addressed. For "wip" column, the median weight was determined, and that median was inserted in the cells with missing value. ‘wip’ is short for “work in progress.” It represents the number of unfinished items for products.
 
-- Feature engineering was applied to the ‘date’ column and new columns were created for the numeric days and numeric months from the dates.
+   * Feature engineering was applied to the ‘date’ column and new columns were created for the numeric days and numeric months from the dates.
 
-- Duplicates in the data were checked for and there were no duplicates. 
+   * Duplicates in the data were checked for and there were no duplicates. 
 
-- Rows with actual productivity of employees (column title is actual_productivity) greater than 1 were deleted from the data set. According to the data set information on the UCI website, actual productivity should be between 0 and 1.
+   * Rows with actual productivity of employees (column title is actual_productivity) greater than 1 were deleted from the data set. According to the data set information on the UCI website, actual productivity should be between 0 and 1.
 
-- An inconsistent category of data in the ‘department’ column was fixed
+   * An inconsistent category of data in the ‘department’ column was fixed
 
-- Outliers were identified and kept
+   * Outliers were identified and kept
 
-- In the dataset, there is a column titled 'targeted_productivity.' This column represents the targeted productivity (a number between 0 and 1) set by the Authority for each team for each day. A new column titled 'met_goal' was created for employee teams that met their target productivity goal. The column had either a ‘Yes’ or ‘No.’ ‘Yes’ for those who met their goals and ‘No’ for those who did not meet their goals. The 'actual_productivity' column was dropped
+   * In the dataset, there is a column titled 'targeted_productivity.' This column represents the targeted productivity (a number between 0 and 1) set by the Authority for each team for each day. A new column titled 'met_goal' was created for employee teams that met their target productivity goal. The column had either a ‘Yes’ or ‘No.’ ‘Yes’ for those who met their goals and ‘No’ for those who did not meet their goals. The 'actual_productivity' column was dropped
 
-- The string names of the new column ‘met_goal’ were converted to numeric values of 0 and 1. ‘0’ for ‘No’ and ‘1’ for ‘Yes.’
+   * The string names of the new column ‘met_goal’ were converted to numeric values of 0 and 1. ‘0’ for ‘No’ and ‘1’ for ‘Yes.’
 
-- A validation split was performed
+   * A validation split was performed
 
-- Numerical features were scaled and nominal categorical features were one-hot encoded.
+   * Numerical features were scaled and nominal categorical features were one-hot encoded.
 
 ### Univariate and multivariate visualizations:
 
