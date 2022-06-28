@@ -81,7 +81,3 @@ In this section, the following tasks were carried out:
 - Also, based on the confusion matrices, the KNN model was better at identifying employee teams that met or exceeded their target productivity, which is important for this problem. The KNN model was able to successfully classify 90% of the samples in our test set that were class 1 ('Yes' representing employee teams that met or exceeded their target productivity).
 
 - As a result of the above reasons, I chose the KNN model.
-
-### Video Presentation:
-
-The following link contains a presentation I gave about this project. I assumed I was talking to a technical audience in the presentation, so the presentation has exploratory visuals and codes: https://drive.google.com/file/d/1YFUMF7p563BMlnzy8ZiE3ma4qXXK4E4i/view?usp=sharing
